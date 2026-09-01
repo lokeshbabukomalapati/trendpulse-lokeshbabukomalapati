@@ -110,10 +110,10 @@ print(f"Collected {total_stories} stories.Saved to {file_path}")
 #category_story_groups is dictionary having key and values. technology is a key inside [ ] are list of values.
 #try - except is exceptional handling in python. Try has the possible executable statements. If any thing goes wrong then it is handled by except.
 #top_story_id_lists = [] is used to not crash the code. If any APIs fail then this variable it will be used as still defined.
-#story_detail_list_response.raise_for_status() -- it will raise exception  if any fails for http request
-#for all_story_list_detail -- loop starts for the all_story_list_details
-# if all_story_list_detail and 'title' in all_story_list_detail: -- if statement checks to ensure story is valid and has a 'title' key 
-#top_story_id_lists_response.json() -- converts http requests to python objects
-#for i, all_story_list_detail in enumerate(storie_details[:25]): -- Display top 25 stories for each category
-#flattened_data.append(story) -- It will add the all story points to file
+#story_detail_list_response.raise_for_status() # it will raise exception  if any fails for http request
+#for all_story_list_detail #loop starts for the all_story_list_details
+# if all_story_list_detail and 'title' in all_story_list_detail: # if statement checks to ensure story is valid and has a 'title' key 
+#top_story_id_lists_response.json() # converts http requests to python objects
+#for i, all_story_list_detail in enumerate(storie_details[:25]): #Display top 25 stories for each category
+#flattened_data.append(story) # It will add the all story points to file
 #logic first collects the story ids in a list. get the url.json based on base url. After story ids, logic will get the details of the story ids.It will get the top 25 stories as per category story ids.
